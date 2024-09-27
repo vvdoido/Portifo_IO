@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá, Sou Claudio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Foli.css">
+</head>
+<body>  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top custom-navbar">
+            <a class="navbar-brand" href="#">
+                <img id="profile-pic-small" src="Design sem nome (2).png" alt="Claudio Paiva" class="rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Foto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+                <div class="contact ml-3 d-flex align-items-center">
+                    <span class="text-white">(11) 98615-9827</span>
+                    <a href="tel:+1140028922" class="ml-2"><img src="Phone.png" alt="Phone" class="phone-img"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero text-center d-flex align-items-center justify-content-center">
+            <div class="container carousel-height">
+                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeCarousel" data-slide-to="1"></li>
+                        <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.example.com/dashboards-pcp" target="_blank">
+                                <img src="Home page (1).png" class="d-block w-100" alt="Primeira imagem">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto Dashboards PCP</h5>
+                                <p>Gerador de indicadores para o setor de PCP.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://vvdoido.github.io/Project_Espro/" target="_blank">
+                                <img src="Home page (2).png" class="d-block w-100" alt="Segunda imagem">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projetos Apresentações Espro</h5>
+                                <p>Slider Rotativo Para Apresentações.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.example.com/ecommerce-gamers" target="_blank">
+                                <img src="Tela de compra (1).png" class="d-block w-100" alt="Terceira imagem">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto E-commerce</h5>
+                                <p>E-commerce específico para periféricos gamers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#000" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,245.3C384,245,480,203,576,186.7C672,171,768,181,864,202.7C960,224,1056,256,1152,240C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </section>
+
+        <section id="servicos" class="profile text-center py-5 bg-dark text-white">
+            <div class="container">
+                <img id="profile-pic-large" src="Design sem nome (2).png" alt="Claudio Paiva" class="rounded-circle mb-4 profile-pic-large">
+                <h2>Claudio Paiva</h2>
+                <p>Estudante</p>
+            </div>
+        </section>
+
+        <section id="sobre-mim" class="sobre-mim text-center py-5 bg-black text-white">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <p>Olá! Meu nome é Claudio Paiva, tenho 20 anos e moro em Diadema. Vivo com minha mãe e meu irmão. Tenho 1 ano e 3 meses de experiência com PCP como aprendiz e 1 mês de experiência atuando como assistente. Estou sempre buscando aprender e aprimorar minhas habilidades na área de Planejamento e Controle de Produção integrado com a tecnologia.</p>
+            </div>
+        </section>
+
+        <section id="contatos" class="contact text-center py-5 bg-dark text-white">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Fique à vontade para entrar em contato comigo através das redes sociais abaixo.</p>
+                <div class="social-buttons mt-4">
+                    <a href="https://www.linkedin.com/in/claudio-paiva-059b5626a/" target="_blank" class="social-btn">
+                        <img src="likedin-logo.webp" alt="LinkedIn" class="social-img">
+                    </a>
+                    <a href="https://github.com/vvdoido" target="_blank" class="social-btn">
+                        <img src="GIt.hub.png" alt="GitHub" class="social-img">
+                    </a>
+                    <a href="https://www.instagram.com/claudio.paiva99/" target="_blank" class="social-btn">
+                        <img src="instagram-folli.webp" alt="Instagram" class="social-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Foli.js"></script>
+</body>
+</html>
